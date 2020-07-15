@@ -1,0 +1,19 @@
+.help-text {
+    color: grey;
+    font-size: 0.875rem;
+    font-style: italic;
+
+    a {
+        color: grey;
+    }
+}
+
+@media screen and (min-width: 30rem) {
+    .help-text {
+        font-size: 1rem;
+
+        &--small {
+            font-size: 0.875rem;
+        }
+    }
+}
